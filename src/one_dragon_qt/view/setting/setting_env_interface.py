@@ -43,19 +43,19 @@ class SettingEnvInterface(VerticalScrollInterface):
         basic_group = SettingCardGroup(gt('基础'))
 
         self.debug_opt = SwitchSettingCard(
-            icon=FluentIcon.SEARCH, title='调试模式', content='正常无需开启'
+            icon=FluentIcon.SEARCH, title=gt('调试模式'), content=gt('正常无需开启')
         )
         self.debug_opt.value_changed.connect(lambda: self.ctx.init_by_config())
         basic_group.addSettingCard(self.debug_opt)
 
         self.copy_screenshot_opt = SwitchSettingCard(
-            icon=FluentIcon.CAMERA, title='复制截图到剪贴板',
-            content='按下截图按键时，自动将截图复制到剪贴板'
+            icon=FluentIcon.CAMERA, title=gt('复制截图到剪贴板'),
+            content=gt('按下截图按键时，自动将截图复制到剪贴板')
         )
         basic_group.addSettingCard(self.copy_screenshot_opt)
 
         self.ocr_cache_opt = SwitchSettingCard(
-            icon=FluentIcon.SEARCH, title='OCR缓存模式', content='降低CPU占用(测试中)'
+            icon=FluentIcon.SEARCH, title=gt('OCR缓存模式'), content=gt('降低CPU占用(测试中)')
         )
         basic_group.addSettingCard(self.ocr_cache_opt)
 
@@ -65,26 +65,26 @@ class SettingEnvInterface(VerticalScrollInterface):
         code_group = SettingCardGroup(gt('Git相关'))
 
         self.repository_type_opt = ComboBoxSettingCard(
-            icon=FluentIcon.APPLICATION, title='代码源', content='国内无法访问GitHub则选择Gitee',
+            icon=FluentIcon.APPLICATION, title=gt('代码源'), content=gt('国内无法访问GitHub则选择Gitee'),
             options_enum=RepositoryTypeEnum
         )
         self.repository_type_opt.value_changed.connect(lambda: self.ctx.git_service.update_git_remote())
         code_group.addSettingCard(self.repository_type_opt)
 
         self.git_method_opt = ComboBoxSettingCard(
-            icon=FluentIcon.SYNC, title='拉取方式', content='不懂什么是ssh就选https',
+            icon=FluentIcon.SYNC, title=gt('拉取方式'), content=gt('不懂什么是ssh就选https'),
             options_enum=GitMethodEnum
         )
         self.git_method_opt.value_changed.connect(lambda: self.ctx.git_service.update_git_remote())
         code_group.addSettingCard(self.git_method_opt)
 
         self.force_update_opt = SwitchSettingCard(
-            icon=FluentIcon.SYNC, title='强制更新', content='不懂代码请开启，会将脚本更新到最新并将你的改动覆盖，不会使你的配置失效',
+            icon=FluentIcon.SYNC, title=gt('强制更新'), content=gt('不懂代码请开启，会将脚本更新到最新并将你的改动覆盖，不会使你的配置失效'),
         )
         code_group.addSettingCard(self.force_update_opt)
 
         self.auto_update_opt = SwitchSettingCard(
-            icon=FluentIcon.SYNC, title='自动更新', content='使用exe启动时，自动检测并更新代码',
+            icon=FluentIcon.SYNC, title=gt('自动更新'), content=gt('使用exe启动时，自动检测并更新代码'),
         )
         code_group.addSettingCard(self.auto_update_opt)
 
@@ -93,14 +93,14 @@ class SettingEnvInterface(VerticalScrollInterface):
     def _init_python_group(self) -> SettingCardGroup:
         python_group = SettingCardGroup(gt('Python相关'))
 
-        self.cpython_source_opt = ComboBoxSettingCard(icon=FluentIcon.GLOBE, title='Python下载源', options_enum=CpythonSourceEnum)
+        self.cpython_source_opt = ComboBoxSettingCard(icon=FluentIcon.GLOBE, title=gt('Python下载源'), options_enum=CpythonSourceEnum)
         self.cpython_build_choose_best_btn = PushButton(gt('自动测速选择'), self)
         self.cpython_build_choose_best_btn.clicked.connect(self.on_cpython_build_choose_best_clicked)
         self.cpython_source_opt.hBoxLayout.addWidget(self.cpython_build_choose_best_btn, 0, Qt.AlignmentFlag.AlignRight)
         self.cpython_source_opt.hBoxLayout.addSpacing(16)
         python_group.addSettingCard(self.cpython_source_opt)
 
-        self.pip_source_opt = ComboBoxSettingCard(icon=FluentIcon.GLOBE, title='Pip源', options_enum=PipSourceEnum)
+        self.pip_source_opt = ComboBoxSettingCard(icon=FluentIcon.GLOBE, title=gt('Pip源'), options_enum=PipSourceEnum)
         self.pip_choose_best_btn = PushButton(gt('自动测速选择'), self)
         self.pip_choose_best_btn.clicked.connect(self.on_pip_choose_best_clicked)
         self.pip_source_opt.hBoxLayout.addWidget(self.pip_choose_best_btn, 0, Qt.AlignmentFlag.AlignRight)
@@ -113,26 +113,26 @@ class SettingEnvInterface(VerticalScrollInterface):
         web_group = SettingCardGroup(gt('网络相关'))
 
         self.proxy_type_opt = ComboBoxSettingCard(
-            icon=FluentIcon.GLOBE, title='网络代理', content='免费代理仅能加速工具和模型下载，无法加速代码同步',
+            icon=FluentIcon.GLOBE, title=gt('网络代理'), content=gt('免费代理仅能加速工具和模型下载，无法加速代码同步'),
             options_enum=ProxyTypeEnum
         )
         self.proxy_type_opt.value_changed.connect(self._on_proxy_type_changed)
         web_group.addSettingCard(self.proxy_type_opt)
 
         self.personal_proxy_input = TextSettingCard(
-            icon=FluentIcon.WIFI, title='个人代理',
+            icon=FluentIcon.WIFI, title=gt('个人代理'),
             input_placeholder='http://127.0.0.1:8080'
         )
         self.personal_proxy_input.value_changed.connect(lambda: self._on_proxy_changed())
         web_group.addSettingCard(self.personal_proxy_input)
 
         self.gh_proxy_url_opt = TextSettingCard(
-            icon=FluentIcon.GLOBE, title='免费代理'
+            icon=FluentIcon.GLOBE, title=gt('免费代理')
         )
         web_group.addSettingCard(self.gh_proxy_url_opt)
 
         self.auto_fetch_gh_proxy_url_opt = SwitchSettingCard(
-            icon=FluentIcon.SYNC, title='自动获取免费代理地址', content='获取失败时 可前往 https://ghproxy.link/ 查看自行更新'
+            icon=FluentIcon.SYNC, title=gt('自动获取免费代理地址'), content=gt('获取失败时 可前往 https://ghproxy.link/ 查看自行更新')
         )
         self.fetch_gh_proxy_url_btn = PushButton(gt('获取'), self)
         self.fetch_gh_proxy_url_btn.clicked.connect(self.on_fetch_gh_proxy_url_clicked)
@@ -151,22 +151,22 @@ class SettingEnvInterface(VerticalScrollInterface):
         key_group = SettingCardGroup(gt('脚本按键'))
 
         self.key_start_running_input = KeySettingCard(
-            icon=FluentIcon.PLAY, title='开始运行', content='开始、暂停、恢复某个应用',
+            icon=FluentIcon.PLAY, title=gt('开始运行'), content=gt('开始、暂停、恢复某个应用'),
         )
         key_group.addSettingCard(self.key_start_running_input)
 
         self.key_stop_running_input = KeySettingCard(
-            icon=FluentIcon.CLOSE, title='停止运行', content='停止正在运行的应用，不能恢复'
+            icon=FluentIcon.CLOSE, title=gt('停止运行'), content=gt('停止正在运行的应用，不能恢复')
         )
         key_group.addSettingCard(self.key_stop_running_input)
 
         self.key_screenshot_input = KeySettingCard(
-            icon=FluentIcon.CAMERA, title='游戏截图', content='用于开发、提交bug。会自动对UID打码，保存在 .debug/images/ 文件夹中'
+            icon=FluentIcon.CAMERA, title=gt('游戏截图'), content=gt('用于开发、提交bug。会自动对UID打码，保存在 .debug/images/ 文件夹中')
         )
         key_group.addSettingCard(self.key_screenshot_input)
 
         self.key_debug_input = KeySettingCard(
-            icon=FluentIcon.MOVE, title='调试按钮', content='用于开发，部分应用开始调试'
+            icon=FluentIcon.MOVE, title=gt('调试按钮'), content=gt('用于开发，部分应用开始调试')
         )
         key_group.addSettingCard(self.key_debug_input)
 
@@ -235,16 +235,16 @@ class SettingEnvInterface(VerticalScrollInterface):
         # 异步测速pip源，toast显示日志和结果
         self._pip_speed_thread = PipSourceSpeedTestThread(self.ctx)
         self._pip_speed_thread.log_signal.connect(lambda label, ms: self._show_info_bar(
-            title=f"测速：{label}",
-            content=f"耗时 {ms}ms",
+            title=f"{gt('测速结果')}: {label}",
+            content=f"{ms}ms",
             duration=2000
         ))
         def pip_result(label, ms, value):
             self.ctx.env_config.pip_source = value
             self.pip_source_opt.setValue(value)
             self._show_info_bar(
-                title="测速结果",
-                content=f"已选择最快的Pip源：{label}（{ms}ms）",
+                title=gt('测速结果'),
+                content=f"{gt('Pip源')}: {label} ({ms}ms)",
                 duration=3000
             )
         self._pip_speed_thread.result_signal.connect(pip_result)
@@ -254,16 +254,16 @@ class SettingEnvInterface(VerticalScrollInterface):
         # 异步测速python-build镜像源，toast显示日志和结果
         self._python_speed_thread = PythonSourceSpeedTestThread(self.ctx)
         self._python_speed_thread.log_signal.connect(lambda label, ms: self._show_info_bar(
-            title=f"测速：{label}",
-            content=f"耗时 {ms}ms",
+            title=f"{gt('测速结果')}: {label}",
+            content=f"{ms}ms",
             duration=2000
         ))
         def python_result(label, ms, value):
             self.ctx.env_config.cpython_source = value
             self.cpython_source_opt.setValue(value)
             self._show_info_bar(
-                title="测速结果",
-                content=f"已选择最快的Python下载源：{label}（{ms}ms）",
+                title=gt('测速结果'),
+                content=f"{gt('Python下载源')}: {label} ({ms}ms)",
                 duration=3000
             )
         self._python_speed_thread.result_signal.connect(python_result)

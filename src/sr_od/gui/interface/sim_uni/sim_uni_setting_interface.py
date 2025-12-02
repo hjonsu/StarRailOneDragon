@@ -3,6 +3,7 @@ from numpy.core.defchararray import title
 from qfluentwidgets import FluentIcon, SettingCardGroup
 
 from one_dragon.base.config.config_item import ConfigItem
+from one_dragon.utils.i18_utils import gt
 from one_dragon_qt.widgets.column import Column
 from one_dragon_qt.widgets.vertical_scroll_interface import VerticalScrollInterface
 from one_dragon_qt.widgets.setting_card.combo_box_setting_card import ComboBoxSettingCard
@@ -27,19 +28,19 @@ class SimUniSettingInterface(VerticalScrollInterface):
     def get_content_widget(self) -> QWidget:
         content_widget = Column()
 
-        self.weekly_sim_uni_num_opt = ComboBoxSettingCard(icon=FluentIcon.GAME, title='模拟宇宙')
+        self.weekly_sim_uni_num_opt = ComboBoxSettingCard(icon=FluentIcon.GAME, title=gt('模拟宇宙', 'game'))
         content_widget.add_widget(self.weekly_sim_uni_num_opt)
 
-        self.weekly_sim_uni_diff_opt = ComboBoxSettingCard(icon=FluentIcon.GAME, title='难度')
+        self.weekly_sim_uni_diff_opt = ComboBoxSettingCard(icon=FluentIcon.GAME, title=gt('难度'))
         content_widget.add_widget(self.weekly_sim_uni_diff_opt)
 
-        self.weekly_plan_times_opt = TextSettingCard(icon=FluentIcon.CALENDAR, title='每周精英次数')
+        self.weekly_plan_times_opt = TextSettingCard(icon=FluentIcon.CALENDAR, title=gt('每周精英次数'))
         content_widget.add_widget(self.weekly_plan_times_opt)
 
-        self.daily_plan_times_opt = TextSettingCard(icon=FluentIcon.CALENDAR, title='每日精英次数')
+        self.daily_plan_times_opt = TextSettingCard(icon=FluentIcon.CALENDAR, title=gt('每日精英次数'))
         content_widget.add_widget(self.daily_plan_times_opt)
 
-        challenge_group = SettingCardGroup(title='挑战配置')
+        challenge_group = SettingCardGroup(title=gt('挑战配置'))
         content_widget.add_widget(challenge_group)
 
         self.challenge_opt_list = {}

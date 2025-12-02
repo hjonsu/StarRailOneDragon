@@ -2,6 +2,7 @@ from PySide6.QtWidgets import QWidget
 from qfluentwidgets import FluentIcon
 
 from one_dragon.base.config.config_item import ConfigItem
+from one_dragon.utils.i18_utils import gt
 from one_dragon_qt.widgets.column import Column
 from one_dragon_qt.widgets.setting_card.editable_combo_box_setting_card import EditableComboBoxSettingCard
 from one_dragon_qt.widgets.vertical_scroll_interface import VerticalScrollInterface
@@ -27,25 +28,25 @@ class WorldPatrolSettingInterface(VerticalScrollInterface):
     def get_content_widget(self) -> QWidget:
         content_widget = Column()
 
-        self.team_num_opt = ComboBoxSettingCard(icon=FluentIcon.PEOPLE, title='使用配队',
-                                                content='0代表使用当前配队',
+        self.team_num_opt = ComboBoxSettingCard(icon=FluentIcon.PEOPLE, title=gt('使用配队'),
+                                                content=gt('0代表使用当前配队'),
                                                 options_list=[ConfigItem(str(i)) for i in range(10)])
         content_widget.add_widget(self.team_num_opt)
 
-        self.character_1_opt = EditableComboBoxSettingCard(icon=FluentIcon.PEOPLE, title='1号位角色',
-                                                           content='手动指定1号位角色可以避免识别错误')
+        self.character_1_opt = EditableComboBoxSettingCard(icon=FluentIcon.PEOPLE, title=gt('1号位角色'),
+                                                           content=gt('手动指定1号位角色可以避免识别错误'))
         content_widget.add_widget(self.character_1_opt)
 
-        self.whitelist_id_opt = ComboBoxSettingCard(icon=FluentIcon.PEOPLE, title='路线名单')
+        self.whitelist_id_opt = ComboBoxSettingCard(icon=FluentIcon.PEOPLE, title=gt('路线名单'))
         content_widget.add_widget(self.whitelist_id_opt)
 
-        self.tech_fight_opt = SwitchSettingCard(icon=FluentIcon.GAME, title='秘技开怪')
+        self.tech_fight_opt = SwitchSettingCard(icon=FluentIcon.GAME, title=gt('秘技开怪'))
         content_widget.add_widget(self.tech_fight_opt)
 
-        self.tech_only_opt = SwitchSettingCard(icon=FluentIcon.GAME, title='仅秘技开怪')
+        self.tech_only_opt = SwitchSettingCard(icon=FluentIcon.GAME, title=gt('仅秘技开怪'))
         content_widget.add_widget(self.tech_only_opt)
 
-        self.max_consumable_cnt_opt = ComboBoxSettingCard(icon=FluentIcon.GAME, title='单次最多消耗品个数',
+        self.max_consumable_cnt_opt = ComboBoxSettingCard(icon=FluentIcon.GAME, title=gt('单次最多消耗品个数'),
                                                       options_list=[ConfigItem(str(i)) for i in range(6)])
         content_widget.add_widget(self.max_consumable_cnt_opt)
 

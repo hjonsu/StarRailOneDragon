@@ -3,9 +3,1089 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-# SR-OD UI
+# ===== Application Names =====
+msgid "StarRail-OneDragon"
+msgstr "StarRail OneDragon"
+
+msgid "StarRail-OneDragon-installer"
+msgstr "StarRail OneDragon Installer"
+
+msgid "欢迎使用星穹铁道一条龙"
+msgstr "Welcome to StarRail OneDragon"
+
+# ===== Navigation Menu =====
+msgid "一条龙"
+msgstr "One Dragon"
+
 msgid "设置"
 msgstr "Settings"
 
 msgid "语言"
 msgstr "Language"
+
+msgid "锄大地"
+msgstr "World Patrol"
+
+msgid "模拟宇宙"
+msgstr "Simulated Universe"
+
+msgid "历战余响"
+msgstr "Echo of War"
+
+msgid "游戏助手"
+msgstr "Game Assistant"
+
+msgid "开发工具"
+msgstr "Dev Tools"
+
+msgid "账户管理"
+msgstr "Account Manager"
+
+msgid "点赞"
+msgstr "Like"
+
+msgid "代码同步"
+msgstr "Code Sync"
+
+msgid "一键安装"
+msgstr "One-Click Install"
+
+msgid "游戏设置"
+msgstr "Game Settings"
+
+msgid "脚本环境"
+msgstr "Script Environment"
+
+msgid "通知设置"
+msgstr "Notification Settings"
+
+msgid "资源下载"
+msgstr "Resource Download"
+
+msgid "自定义设置"
+msgstr "Custom Settings"
+
+msgid "源配置"
+msgstr "Source Config"
+
+msgid "运行"
+msgstr "Run"
+
+msgid "校准"
+msgstr "Calibration"
+
+msgid "其他设置"
+msgstr "Other Settings"
+
+msgid "体力计划"
+msgstr "Stamina Plan"
+
+msgid "名单列表"
+msgstr "Whitelist"
+
+msgid "区域管理"
+msgstr "Region Manager"
+
+msgid "星球管理"
+msgstr "Planet Manager"
+
+msgid "路线绘制"
+msgstr "Route Drawing"
+
+msgid "大地图录制"
+msgstr "Large Map Recording"
+
+msgid "每周配置"
+msgstr "Weekly Config"
+
+msgid "挑战配置"
+msgstr "Challenge Config"
+
+msgid "模板管理"
+msgstr "Template Manager"
+
+msgid "画面管理"
+msgstr "Screen Manager"
+
+msgid "图像分析"
+msgstr "Image Analysis"
+
+msgid "图片拼接"
+msgstr "Image Stitching"
+
+msgid "图像处理"
+msgstr "Image Processing"
+
+msgid "图像扣图"
+msgstr "Image Matting"
+
+msgid "一条龙运行"
+msgstr "One Dragon Run"
+
+# ===== Setting Groups =====
+msgid "游戏基础"
+msgstr "Game Basics"
+
+msgid "启动参数"
+msgstr "Launch Arguments"
+
+msgid "游戏按键"
+msgstr "Game Keys"
+
+msgid "遗器分解"
+msgstr "Relic Salvage"
+
+msgid "基础"
+msgstr "Basics"
+
+msgid "Git相关"
+msgstr "Git Settings"
+
+msgid "Python相关"
+msgstr "Python Settings"
+
+msgid "网络相关"
+msgstr "Network Settings"
+
+msgid "脚本按键"
+msgstr "Script Keys"
+
+msgid "任务列表"
+msgstr "Task List"
+
+msgid "运行设置"
+msgstr "Run Settings"
+
+msgid "路线指令"
+msgstr "Route Commands"
+
+msgid "大地图"
+msgstr "Large Map"
+
+# ===== Setting Card Titles =====
+msgid "输入方式"
+msgstr "Input Method"
+
+msgid "疾跑"
+msgstr "Sprint"
+
+msgid "只用奇巧零食"
+msgstr "Use Only Quirky Snacks"
+
+msgid "启用"
+msgstr "Enable"
+
+msgid "窗口尺寸"
+msgstr "Window Size"
+
+msgid "全屏"
+msgstr "Full Screen"
+
+msgid "无边框窗口"
+msgstr "Borderless Window"
+
+msgid "显示器序号"
+msgstr "Monitor Number"
+
+msgid "高级参数"
+msgstr "Advanced Parameters"
+
+msgid "交互"
+msgstr "Interact"
+
+msgid "秘技"
+msgstr "Technique"
+
+msgid "地图"
+msgstr "Map"
+
+msgid "返回"
+msgstr "Back"
+
+msgid "玩法交互"
+msgstr "Gameplay Interact"
+
+msgid "使用配队"
+msgstr "Use Team"
+
+msgid "1号位角色"
+msgstr "Character Slot 1"
+
+msgid "路线名单"
+msgstr "Route Whitelist"
+
+msgid "秘技开怪"
+msgstr "Technique to Start Battle"
+
+msgid "仅秘技开怪"
+msgstr "Only Technique to Start"
+
+msgid "单次最多消耗品个数"
+msgstr "Max Consumables Per Run"
+
+msgid "使用说明"
+msgstr "Instructions"
+
+msgid "重置运行记录"
+msgstr "Reset Run Record"
+
+msgid "仅个人使用"
+msgstr "Personal Use Only"
+
+msgid "星球选择"
+msgstr "Planet Selection"
+
+msgid "区域选择"
+msgstr "Region Selection"
+
+msgid "运行模式"
+msgstr "Run Mode"
+
+msgid "指定楼层"
+msgstr "Specify Floor"
+
+msgid "指定行"
+msgstr "Specify Row"
+
+msgid "指定列"
+msgstr "Specify Column"
+
+msgid "难度"
+msgstr "Difficulty"
+
+msgid "每周精英次数"
+msgstr "Weekly Elite Runs"
+
+msgid "每日精英次数"
+msgstr "Daily Elite Runs"
+
+msgid "名称"
+msgstr "Name"
+
+msgid "命途"
+msgstr "Path"
+
+msgid "跳过黑塔"
+msgstr "Skip Herta"
+
+msgid "祝福第一优先级"
+msgstr "Blessing Priority 1"
+
+msgid "祝福第二优先级"
+msgstr "Blessing Priority 2"
+
+msgid "奇物优先级"
+msgstr "Curio Priority"
+
+msgid "楼层优先级"
+msgstr "Floor Priority"
+
+msgid "名称搜索"
+msgstr "Search by Name"
+
+msgid "遗器分解等级"
+msgstr "Relic Salvage Level"
+
+msgid "全部已弃置"
+msgstr "All Abandoned"
+
+msgid "雅利洛-VI 行政区 罗纳德"
+msgstr "Jarilo-VI Admin District - Ronald"
+
+msgid "仙舟「罗浮」 星槎海中枢 货全"
+msgstr "Xianzhou Luofu - Starskiff Haven - Huoquan"
+
+msgid "自动合成零食（消耗全部材料）"
+msgstr "Auto Synthesize Snacks (Use All Materials)"
+
+msgid "循环执行"
+msgstr "Loop Execution"
+
+msgid "删除体力计划"
+msgstr "Delete Stamina Plan"
+
+msgid "名单名称"
+msgstr "Whitelist Name"
+
+msgid "名单类型"
+msgstr "Whitelist Type"
+
+msgid "调试模式"
+msgstr "Debug Mode"
+
+msgid "复制截图到剪贴板"
+msgstr "Copy Screenshot to Clipboard"
+
+msgid "OCR缓存模式"
+msgstr "OCR Cache Mode"
+
+msgid "代码源"
+msgstr "Code Source"
+
+msgid "拉取方式"
+msgstr "Pull Method"
+
+msgid "强制更新"
+msgstr "Force Update"
+
+msgid "自动更新"
+msgstr "Auto Update"
+
+msgid "Python下载源"
+msgstr "Python Download Source"
+
+msgid "Pip源"
+msgstr "Pip Source"
+
+msgid "网络代理"
+msgstr "Network Proxy"
+
+msgid "个人代理"
+msgstr "Personal Proxy"
+
+msgid "免费代理"
+msgstr "Free Proxy"
+
+msgid "自动获取免费代理地址"
+msgstr "Auto Fetch Free Proxy URL"
+
+msgid "开始运行"
+msgstr "Start Running"
+
+msgid "停止运行"
+msgstr "Stop Running"
+
+msgid "游戏截图"
+msgstr "Game Screenshot"
+
+msgid "调试按钮"
+msgstr "Debug Button"
+
+msgid "单应用通知"
+msgstr "Single App Notification"
+
+msgid "运行实例"
+msgstr "Run Instance"
+
+msgid "结束后"
+msgstr "After Done"
+
+# ===== Button Texts =====
+msgid "选择已有"
+msgstr "Select Existing"
+
+msgid "新建"
+msgstr "Create New"
+
+msgid "删除"
+msgstr "Delete"
+
+msgid "取消"
+msgstr "Cancel"
+
+msgid "选择星球"
+msgstr "Select Planet"
+
+msgid "选择区域"
+msgstr "Select Region"
+
+msgid "选择路线"
+msgstr "Select Route"
+
+msgid "添加星球"
+msgstr "Add Planet"
+
+msgid "添加区域"
+msgstr "Add Region"
+
+msgid "添加路线"
+msgstr "Add Route"
+
+msgid "刷新数据"
+msgstr "Refresh Data"
+
+msgid "从米游社同步"
+msgstr "Sync from HoYoLAB"
+
+msgid "保存修改"
+msgstr "Save Changes"
+
+msgid "切换子区域或楼层"
+msgstr "Switch Sub-region or Floor"
+
+msgid "选择传送点"
+msgstr "Select Teleport Point"
+
+msgid "保存"
+msgstr "Save"
+
+msgid "测试运行"
+msgstr "Test Run"
+
+msgid "按文本更新"
+msgstr "Update by Text"
+
+msgid "回退 -"
+msgstr "Undo -"
+
+msgid "截图移动 F6"
+msgstr "Screenshot Move F6"
+
+msgid "禁疾跑"
+msgstr "Disable Sprint"
+
+msgid "模拟按键移动"
+msgstr "Simulate Key Movement"
+
+msgid "更新位置"
+msgstr "Update Position"
+
+msgid "战斗"
+msgstr "Battle"
+
+msgid "截图战斗 F7"
+msgstr "Screenshot Battle F7"
+
+msgid "可破坏物"
+msgstr "Destructible"
+
+msgid "截图可破坏物 F8"
+msgstr "Screenshot Destructible F8"
+
+msgid "交互文本"
+msgstr "Interaction Text"
+
+msgid "最长等待秒数"
+msgstr "Max Wait Seconds"
+
+msgid "等待"
+msgstr "Wait"
+
+msgid "禁用秘技"
+msgstr "Disable Technique"
+
+msgid "允许秘技"
+msgstr "Allow Technique"
+
+msgid "按键秒数"
+msgstr "Key Press Duration"
+
+msgid "复制"
+msgstr "Copy"
+
+msgid "添加"
+msgstr "Add"
+
+msgid "楼层类型"
+msgstr "Floor Type"
+
+msgid "修改"
+msgstr "Modify"
+
+msgid "自动测速选择"
+msgstr "Auto Speed Test"
+
+msgid "获取"
+msgstr "Fetch"
+
+msgid "前往"
+msgstr "Go To"
+
+msgid "重置"
+msgstr "Reset"
+
+msgid "开始"
+msgstr "Start"
+
+msgid "停止"
+msgstr "Stop"
+
+msgid "暂停"
+msgstr "Pause"
+
+msgid "继续"
+msgstr "Continue"
+
+msgid "确定"
+msgstr "OK"
+
+msgid "路线"
+msgstr "Route"
+
+msgid "移动"
+msgstr "Move"
+
+# ===== Status Messages =====
+msgid "当前状态"
+msgstr "Current Status"
+
+msgid "运行中"
+msgstr "Running"
+
+msgid "已暂停"
+msgstr "Paused"
+
+msgid "已停止"
+msgstr "Stopped"
+
+msgid "空闲"
+msgstr "Idle"
+
+msgid "空闲中"
+msgstr "Idle"
+
+msgid "同步失败"
+msgstr "Sync Failed"
+
+msgid "同步开始"
+msgstr "Sync Started"
+
+msgid "同步完成"
+msgstr "Sync Complete"
+
+msgid "保存成功"
+msgstr "Save Successful"
+
+msgid "保存失败"
+msgstr "Save Failed"
+
+msgid "数据验证失败"
+msgstr "Data Validation Failed"
+
+msgid "测速结果"
+msgstr "Speed Test Result"
+
+# ===== Content/Description Texts =====
+msgid "正常无需开启"
+msgstr "Normally not needed"
+
+msgid "按下截图按键时，自动将截图复制到剪贴板"
+msgstr "Auto copy screenshot to clipboard when pressing screenshot key"
+
+msgid "降低CPU占用(测试中)"
+msgstr "Reduce CPU usage (testing)"
+
+msgid "国内无法访问GitHub则选择Gitee"
+msgstr "Choose Gitee if GitHub is inaccessible in China"
+
+msgid "不懂什么是ssh就选https"
+msgstr "Choose https if unfamiliar with ssh"
+
+msgid "不懂代码请开启，会将脚本更新到最新并将你的改动覆盖，不会使你的配置失效"
+msgstr "Enable if unfamiliar with code. Updates script to latest and overwrites your changes, but keeps your config"
+
+msgid "使用exe启动时，自动检测并更新代码"
+msgstr "Auto detect and update code when launching with exe"
+
+msgid "免费代理仅能加速工具和模型下载，无法加速代码同步"
+msgstr "Free proxy only accelerates tool and model downloads, not code sync"
+
+msgid "获取失败时 可前往 https://ghproxy.link/ 查看自行更新"
+msgstr "If fetch fails, visit https://ghproxy.link/ to update manually"
+
+msgid "开始、暂停、恢复某个应用"
+msgstr "Start, pause, or resume an application"
+
+msgid "停止正在运行的应用，不能恢复"
+msgstr "Stop running application, cannot resume"
+
+msgid "用于开发、提交bug。会自动对UID打码，保存在 .debug/images/ 文件夹中"
+msgstr "For development and bug reports. Auto-masks UID, saves to .debug/images/"
+
+msgid "用于开发，部分应用开始调试"
+msgstr "For development, starts debugging for some apps"
+
+msgid "先看说明 再使用与提问"
+msgstr "Read instructions before using or asking questions"
+
+msgid "开启时 会循环执行到体力用尽"
+msgstr "When enabled, loops until stamina is depleted"
+
+msgid "如果你不知道这是做什么的 请不要填写"
+msgstr "Leave blank if you don't know what this is for"
+
+msgid "请先选择星球"
+msgstr "Please select a planet first"
+
+msgid "正在从米游社获取区域数据..."
+msgstr "Fetching region data from HoYoLAB..."
+
+msgid "没有发现新的区域数据"
+msgstr "No new region data found"
+
+msgid "正在从米游社获取星球数据..."
+msgstr "Fetching planet data from HoYoLAB..."
+
+msgid "没有发现新的星球数据"
+msgstr "No new planet data found"
+
+msgid "区域数据已成功保存"
+msgstr "Region data saved successfully"
+
+msgid "星球数据已成功保存"
+msgstr "Planet data saved successfully"
+
+msgid "0代表使用当前配队"
+msgstr "0 means use current team"
+
+msgid "手动指定1号位角色可以避免识别错误"
+msgstr "Manually specifying character 1 can avoid recognition errors"
+
+# ===== Operations =====
+msgid "打开地图"
+msgstr "Open Map"
+
+msgid "选择区域 %s"
+msgstr "Select Region %s"
+
+msgid "选择传送点 %s"
+msgstr "Select Teleport Point %s"
+
+msgid "选择楼层"
+msgstr "Select Floor"
+
+msgid "缩放地图至 %d"
+msgstr "Scale Map to %d"
+
+msgid "传送恢复"
+msgstr "Teleport Recovery"
+
+msgid "等待主界面"
+msgstr "Waiting for Main Screen"
+
+msgid "等待秒数 %.2f"
+msgstr "Wait %.2f Seconds"
+
+msgid "施放秘技"
+msgstr "Use Technique"
+
+msgid "检测秘技点数"
+msgstr "Check Technique Points"
+
+msgid "快速恢复"
+msgstr "Quick Recovery"
+
+msgid "切换角色"
+msgstr "Switch Character"
+
+msgid "选择配队"
+msgstr "Select Team"
+
+msgid "选择支援"
+msgstr "Select Support"
+
+msgid "组队角色判断"
+msgstr "Team Member Check"
+
+msgid "点击商品"
+msgstr "Click Item"
+
+msgid "购买商品"
+msgstr "Buy Item"
+
+msgid "机械移动"
+msgstr "Mechanical Movement"
+
+msgid "移动 %s -> %s"
+msgstr "Move %s -> %s"
+
+msgid "尝试脱困"
+msgstr "Try to Get Unstuck"
+
+msgid "打开菜单"
+msgstr "Open Menu"
+
+msgid "点击菜单 %s"
+msgstr "Click Menu %s"
+
+msgid "交谈"
+msgstr "Talk"
+
+msgid "交互 %s"
+msgstr "Interact %s"
+
+msgid "切换账号"
+msgstr "Switch Account"
+
+msgid "打开游戏"
+msgstr "Open Game"
+
+msgid "打开并登录游戏"
+msgstr "Open and Login Game"
+
+msgid "进入游戏"
+msgstr "Enter Game"
+
+msgid "点击"
+msgstr "Click"
+
+msgid "点击确认"
+msgstr "Click Confirm"
+
+msgid "取消任务追踪"
+msgstr "Cancel Mission Tracking"
+
+msgid "等待战斗结果"
+msgstr "Waiting for Battle Result"
+
+msgid "使用秘技 进入战斗"
+msgstr "Use Technique to Enter Battle"
+
+msgid "返回普通大世界"
+msgstr "Return to Normal World"
+
+msgid "打开指南"
+msgstr "Open Guide"
+
+msgid "指南传送"
+msgstr "Guide Teleport"
+
+msgid "指南选择副本"
+msgstr "Guide Select Instance"
+
+msgid "指南"
+msgstr "Guide"
+
+msgid "指南TAB"
+msgstr "Guide Tab"
+
+msgid "指南检查体力"
+msgstr "Guide Check Stamina"
+
+msgid "点击开始挑战"
+msgstr "Click Start Challenge"
+
+msgid "点击挑战"
+msgstr "Click Challenge"
+
+msgid "选择挑战次数"
+msgstr "Select Challenge Times"
+
+msgid "锄地路线"
+msgstr "Patrol Route"
+
+msgid "进入战斗"
+msgstr "Enter Battle"
+
+msgid "通知"
+msgstr "Notification"
+
+msgid "领取记忆残晶"
+msgstr "Claim Memory Crystals"
+
+msgid "次数"
+msgstr "Times"
+
+msgid "向下层移动"
+msgstr "Move to Next Level"
+
+msgid "向红点移动"
+msgstr "Move to Red Dot"
+
+msgid "向怪物移动"
+msgstr "Move to Enemy"
+
+msgid "事件"
+msgstr "Event"
+
+msgid "沉浸奖励"
+msgstr "Immersion Reward"
+
+msgid "开始挑战"
+msgstr "Start Challenge"
+
+msgid "获取每周积分奖励"
+msgstr "Get Weekly Points Reward"
+
+msgid "选择宇宙"
+msgstr "Select Universe"
+
+msgid "选择难度"
+msgstr "Select Difficulty"
+
+msgid "选择奇物"
+msgstr "Select Curio"
+
+msgid "丢弃奇物"
+msgstr "Discard Curio"
+
+msgid "强化祝福"
+msgstr "Enhance Blessing"
+
+msgid "丢弃祝福"
+msgstr "Discard Blessing"
+
+msgid "选择命途"
+msgstr "Select Path"
+
+msgid "选择祝福"
+msgstr "Select Blessing"
+
+msgid "暂离重进"
+msgstr "Leave and Re-enter"
+
+msgid "选择角色"
+msgstr "Select Character"
+
+msgid "获取总星数"
+msgstr "Get Total Stars"
+
+msgid "最大解锁关卡"
+msgstr "Max Unlocked Stage"
+
+msgid "向下一层移动"
+msgstr "Move to Next Floor"
+
+msgid "向 %s 移动"
+msgstr "Move to %s"
+
+msgid "向下层移动v3"
+msgstr "Move to Next Level v3"
+
+msgid "选择存档"
+msgstr "Select Save File"
+
+# ===== App Names =====
+msgid "开拓力"
+msgstr "Trailblaze Power"
+
+msgid "委托"
+msgstr "Assignments"
+
+msgid "支援角色奖励"
+msgstr "Support Character Reward"
+
+msgid "仙舟过期邮包"
+msgstr "Xianzhou Expired Parcel"
+
+# ===== ConfigItem Labels =====
+msgid "一条龙中运行"
+msgstr "Run in One Dragon"
+
+msgid "一条龙中不运行"
+msgstr "Don't Run in One Dragon"
+
+msgid "无"
+msgstr "None"
+
+msgid "关闭游戏"
+msgstr "Close Game"
+
+msgid "关机"
+msgstr "Shutdown"
+
+msgid "全部实例"
+msgstr "All Instances"
+
+msgid "仅运行当前"
+msgstr "Run Current Only"
+
+msgid "国服"
+msgstr "CN Server"
+
+msgid "亚服"
+msgstr "Asia Server"
+
+msgid "美服"
+msgstr "America Server"
+
+msgid "欧服"
+msgstr "Europe Server"
+
+msgid "港澳台"
+msgstr "HK/MO/TW Server"
+
+msgid "不启用"
+msgstr "Disabled"
+
+msgid "通过按钮切换"
+msgstr "Toggle with Button"
+
+msgid "长按进入疾跑状态"
+msgstr "Hold to Enter Sprint"
+
+msgid "简体中文"
+msgstr "Simplified Chinese"
+
+msgid "键盘输入"
+msgstr "Keyboard Input"
+
+msgid "剪贴板"
+msgstr "Clipboard"
+
+msgid "窗口化"
+msgstr "Windowed"
+
+msgid "默认配队"
+msgstr "Default Team"
+
+msgid "编队1"
+msgstr "Team 1"
+
+msgid "编队2"
+msgstr "Team 2"
+
+msgid "编队3"
+msgstr "Team 3"
+
+msgid "编队4"
+msgstr "Team 4"
+
+msgid "编队5"
+msgstr "Team 5"
+
+msgid "编队6"
+msgstr "Team 6"
+
+msgid "编队7"
+msgstr "Team 7"
+
+msgid "编队8"
+msgstr "Team 8"
+
+msgid "编队9"
+msgstr "Team 9"
+
+msgid "白名单"
+msgstr "Whitelist"
+
+msgid "黑名单"
+msgstr "Blacklist"
+
+msgid "4星及以下"
+msgstr "4-Star and Below"
+
+msgid "5星及以下"
+msgstr "5-Star and Below"
+
+msgid "游戏识别"
+msgstr "Game Recognition"
+
+msgid "等待大世界"
+msgstr "Wait for Overworld"
+
+msgid "等待秒数"
+msgstr "Wait Seconds"
+
+msgid "完整录制"
+msgstr "Full Recording"
+
+msgid "仅截图"
+msgstr "Screenshot Only"
+
+msgid "仅合并"
+msgstr "Merge Only"
+
+msgid "仅调整大小"
+msgstr "Resize Only"
+
+msgid "仅保存"
+msgstr "Save Only"
+
+msgid "GitHub 代理"
+msgstr "GitHub Proxy"
+
+msgid "中国 - Gitee"
+msgstr "China - Gitee"
+
+msgid "中国 - GitHub 代理"
+msgstr "China - GitHub Proxy"
+
+msgid "海外"
+msgstr "Overseas"
+
+msgid "官方"
+msgstr "Official"
+
+msgid "清华大学"
+msgstr "Tsinghua University"
+
+msgid "阿里云"
+msgstr "Alibaba Cloud"
+
+msgid "主分支"
+msgstr "Main Branch"
+
+msgid "测试分支"
+msgstr "Test Branch"
+
+msgid "选择后请点击同步最新代码"
+msgstr "Click sync after selecting"
+
+msgid "跟随系统"
+msgstr "Follow System"
+
+msgid "浅色"
+msgstr "Light"
+
+msgid "深色"
+msgstr "Dark"
+
+msgid "自动"
+msgstr "Auto"
+
+msgid "自定义"
+msgstr "Custom"
+
+msgid "国服/B服"
+msgstr "CN/Bilibili Server"
+
+msgid "港澳台服"
+msgstr "TW/HK/MO Server"
+
+# ===== Controller Labels =====
+msgid "左摇杆-上"
+msgstr "Left Stick - Up"
+
+msgid "左摇杆-下"
+msgstr "Left Stick - Down"
+
+msgid "左摇杆-左"
+msgstr "Left Stick - Left"
+
+msgid "左摇杆-右"
+msgstr "Left Stick - Right"
+
+msgid "左摇杆-按下"
+msgstr "Left Stick - Press"
+
+msgid "右摇杆-按下"
+msgstr "Right Stick - Press"
+
+# ===== Push/Notification Types =====
+msgid "邮件"
+msgstr "Email"
+
+msgid "企业微信"
+msgstr "Enterprise WeChat"
+
+msgid "钉钉机器人"
+msgstr "DingTalk Bot"
+
+msgid "飞书/Lark 机器人"
+msgstr "Feishu/Lark Bot"
+
+msgid "微加机器人"
+msgstr "WePlus Bot"
+
+msgid "智能微秘书"
+msgstr "Smart Secretary"
+
+msgid "下面的方法无人维护，遇到问题请自行解决"
+msgstr "Methods below are unmaintained, solve issues yourself"
+
+# ===== Misc UI =====
+msgid "默认难度"
+msgstr "Default Difficulty"
+
+msgid "需确保使用时没有启用输入法"
+msgstr "Make sure no IME is active when using"
+
+msgid "出现剪切板失败时 切换到输入法"
+msgstr "Switch to keyboard input if clipboard fails"
+
+msgid "区域-"
+msgstr "Area-"
+
+msgid "-v2"
+msgstr "-v2"

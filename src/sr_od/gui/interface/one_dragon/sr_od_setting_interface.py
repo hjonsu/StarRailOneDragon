@@ -34,11 +34,11 @@ class SrOdSettingInterface(VerticalScrollInterface):
     def get_relic_salvage_group(self) -> QWidget:
         group = SettingCardGroup(gt('遗器分解'))
 
-        self.relic_salvage_level_opt = ComboBoxSettingCard(icon=FluentIcon.GAME, title='遗器分解等级',
+        self.relic_salvage_level_opt = ComboBoxSettingCard(icon=FluentIcon.GAME, title=gt('遗器分解等级'),
                                                            options_enum=RelicLevelEnum)
         group.addSettingCard(self.relic_salvage_level_opt)
 
-        self.relic_salvage_abandon_opt = SwitchSettingCard(icon=FluentIcon.GAME, title='全部已弃置')
+        self.relic_salvage_abandon_opt = SwitchSettingCard(icon=FluentIcon.GAME, title=gt('全部已弃置'))
         group.addSettingCard(self.relic_salvage_abandon_opt)
 
         return group
@@ -46,13 +46,13 @@ class SrOdSettingInterface(VerticalScrollInterface):
     def get_trick_snack_group(self) -> QWidget:
         group = SettingCardGroup(gt('奇巧零食', 'game'))
 
-        self.route_yll6_xzq_opt = SwitchSettingCard(icon=FluentIcon.GAME, title='雅利洛-VI 行政区 罗纳德')
+        self.route_yll6_xzq_opt = SwitchSettingCard(icon=FluentIcon.GAME, title=gt('雅利洛-VI 行政区 罗纳德'))
         group.addSettingCard(self.route_yll6_xzq_opt)
 
-        self.route_xzlf_xchzs_opt = SwitchSettingCard(icon=FluentIcon.GAME, title='仙舟「罗浮」 星槎海中枢 货全')
+        self.route_xzlf_xchzs_opt = SwitchSettingCard(icon=FluentIcon.GAME, title=gt('仙舟「罗浮」 星槎海中枢 货全'))
         group.addSettingCard(self.route_xzlf_xchzs_opt)
 
-        self.synthesize_trick_snack = SwitchSettingCard(icon=FluentIcon.GAME, title='自动合成零食（消耗全部材料）')
+        self.synthesize_trick_snack = SwitchSettingCard(icon=FluentIcon.GAME, title=gt('自动合成零食（消耗全部材料）'))
         group.addSettingCard(self.synthesize_trick_snack)
 
         return group

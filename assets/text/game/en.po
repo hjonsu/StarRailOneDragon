@@ -3,3 +3,460 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+# ===== Phone Menu Items =====
+msgid "商店"
+msgstr "Store"
+
+msgid "好友"
+msgstr "Friends"
+
+msgid "委托"
+msgstr "Assignments"
+
+msgid "旅情事记"
+msgstr "Travel Log"
+
+msgid "合成"
+msgstr "Synthesize"
+
+msgid "成就"
+msgstr "Achievements"
+
+msgid "短信"
+msgstr "Messages"
+
+msgid "无名勋礼"
+msgstr "Nameless Honor"
+
+msgid "跃迁"
+msgstr "Warp"
+
+msgid "角色"
+msgstr "Characters"
+
+msgid "指南"
+msgstr "Interastral Peace Guide"
+
+msgid "智库"
+msgstr "Data Bank"
+
+msgid "书架"
+msgstr "Bookshelf"
+
+msgid "教学目录"
+msgstr "Tutorials"
+
+msgid "编队"
+msgstr "Team Setup"
+
+msgid "背包"
+msgstr "Inventory"
+
+msgid "任务"
+msgstr "Missions"
+
+msgid "导航"
+msgstr "Navigation"
+
+msgid "问题反馈"
+msgstr "Bug Report"
+
+msgid "官方社区"
+msgstr "Official Communities"
+
+msgid "特别活动"
+msgstr "Special Events"
+
+msgid "版本热点"
+msgstr "Version Info"
+
+msgid "账户设置"
+msgstr "Account Settings"
+
+msgid "邮件"
+msgstr "Email"
+
+msgid "公告"
+msgstr "Announcement"
+
+msgid "设置"
+msgstr "Settings"
+
+msgid "拍照"
+msgstr "Photo"
+
+# ===== Simulated Universe =====
+msgid "模拟宇宙"
+msgstr "Simulated Universe"
+
+msgid "拓展装置"
+msgstr "Extension Device"
+
+msgid "寰宇蝗虫"
+msgstr "Swarm Disaster"
+
+msgid "黄金与机械"
+msgstr "Gold and Gears"
+
+msgid "差分宇宙"
+msgstr "Divergent Universe"
+
+msgid "旷宇纷争"
+msgstr "Galaxywide Conflict"
+
+msgid "本周积分"
+msgstr "Weekly Points"
+
+msgid "第一宇宙"
+msgstr "World 1"
+
+msgid "第二宇宙"
+msgstr "World 2"
+
+msgid "第三宇宙"
+msgstr "World 3"
+
+msgid "第四宇宙"
+msgstr "World 4"
+
+msgid "第五宇宙"
+msgstr "World 5"
+
+msgid "第六宇宙"
+msgstr "World 6"
+
+msgid "第七宇宙"
+msgstr "World 7"
+
+msgid "第八宇宙"
+msgstr "World 8"
+
+msgid "第九宇宙"
+msgstr "World 9"
+
+msgid "第%s世界"
+msgstr "World %s"
+
+msgid "第一世界"
+msgstr "World 1"
+
+msgid "第二世界"
+msgstr "World 2"
+
+msgid "第三世界"
+msgstr "World 3"
+
+msgid "第四世界"
+msgstr "World 4"
+
+msgid "第五世界"
+msgstr "World 5"
+
+msgid "第六世界"
+msgstr "World 6"
+
+msgid "第七世界"
+msgstr "World 7"
+
+msgid "第八世界"
+msgstr "World 8"
+
+msgid "第九世界"
+msgstr "World 9"
+
+# ===== Sim Universe Level Types =====
+msgid "区域-战斗"
+msgstr "Zone - Combat"
+
+msgid "区域-遭遇"
+msgstr "Zone - Encounter"
+
+msgid "区域-精英"
+msgstr "Zone - Elite"
+
+msgid "区域-首领"
+msgstr "Zone - Boss"
+
+msgid "区域-事件"
+msgstr "Zone - Event"
+
+msgid "区域-交易"
+msgstr "Zone - Transaction"
+
+msgid "区域-休整"
+msgstr "Zone - Respite"
+
+# ===== Sim Universe Paths =====
+msgid "开拓"
+msgstr "Trailblaze"
+
+msgid "存护"
+msgstr "Preservation"
+
+msgid "记忆"
+msgstr "Remembrance"
+
+msgid "虚无"
+msgstr "Nihility"
+
+msgid "丰饶"
+msgstr "Abundance"
+
+msgid "巡猎"
+msgstr "Hunt"
+
+msgid "毁灭"
+msgstr "Destruction"
+
+msgid "欢愉"
+msgstr "Elation"
+
+msgid "繁育"
+msgstr "Propagation"
+
+msgid "智识"
+msgstr "Erudition"
+
+# ===== Sim Universe Blessings =====
+msgid "命途"
+msgstr "Path"
+
+msgid "命途回响"
+msgstr "Path Echo"
+
+msgid "三星祝福"
+msgstr "3-Star Blessing"
+
+msgid "二星祝福"
+msgstr "2-Star Blessing"
+
+msgid "一星祝福"
+msgstr "1-Star Blessing"
+
+msgid "祝福"
+msgstr "Blessing"
+
+msgid "奇物"
+msgstr "Curio"
+
+msgid "事件"
+msgstr "Event"
+
+msgid "沉浸奖励"
+msgstr "Immersion Reward"
+
+msgid "孤独太空美虫"
+msgstr "Lonely Space Beauty Bug"
+
+# ===== Ornament Extraction =====
+msgid "饰品提取"
+msgstr "Ornament Extraction"
+
+msgid "蠹役饥肠"
+msgstr "Hungry Swarm"
+
+msgid "永恒笑剧"
+msgstr "Eternal Comedy"
+
+msgid "伴你入眠"
+msgstr "Lullaby"
+
+msgid "天剑如雨"
+msgstr "Sword Rain"
+
+msgid "孽果盘生"
+msgstr "Evil Fruit"
+
+msgid "百年冻土"
+msgstr "Frozen Soil"
+
+msgid "温柔话语"
+msgstr "Gentle Words"
+
+msgid "浴火钢心"
+msgstr "Fire-Tempered Steel"
+
+msgid "坚城不倒"
+msgstr "Fortress"
+
+# ===== Echo of War =====
+msgid "历战余响"
+msgstr "Echo of War"
+
+msgid "生存索引"
+msgstr "Survival Index"
+
+# ===== Treasures Lightward =====
+msgid "逐光捡金"
+msgstr "Treasures Lightward"
+
+# ===== Daily Training =====
+msgid "每日实训"
+msgstr "Daily Training"
+
+# ===== Trailblaze Power =====
+msgid "开拓力"
+msgstr "Trailblaze Power"
+
+# ===== Quirky Snacks =====
+msgid "奇巧零食"
+msgstr "Quirky Snacks"
+
+# ===== Map Operations =====
+msgid "传送"
+msgstr "Teleport"
+
+msgid "进入"
+msgstr "Enter"
+
+msgid "移动 %s -> %s"
+msgstr "Move %s -> %s"
+
+msgid "%d层"
+msgstr "Floor %d"
+
+# ===== Item Names =====
+msgid "仙舟过期邮包"
+msgstr "Xianzhou Expired Parcel"
+
+msgid "记忆残晶"
+msgstr "Memory Crystal Shard"
+
+# ===== Planets =====
+msgid "空间站「黑塔」"
+msgstr "Herta Space Station"
+
+msgid "雅利洛-VI"
+msgstr "Jarilo-VI"
+
+msgid "仙舟「罗浮」"
+msgstr "Xianzhou Luofu"
+
+msgid "匹诺康尼"
+msgstr "Penacony"
+
+msgid "翁瓦克"
+msgstr "Amphoreus"
+
+# ===== Common Regions =====
+msgid "行政区"
+msgstr "Administrative District"
+
+msgid "基座舱段"
+msgstr "Base Zone"
+
+msgid "主控舱段"
+msgstr "Main Control Zone"
+
+msgid "支援舱段"
+msgstr "Support Zone"
+
+msgid "收容舱段"
+msgstr "Storage Zone"
+
+msgid "星槎海中枢"
+msgstr "Starskiff Haven"
+
+msgid "流云渡"
+msgstr "Cloudford"
+
+msgid "廻星港"
+msgstr "Central Starskiff Haven"
+
+msgid "太卜司"
+msgstr "Divination Commission"
+
+msgid "工造司"
+msgstr "Artisanship Commission"
+
+msgid "丹鼎司"
+msgstr "Alchemy Commission"
+
+msgid "鳞渊境"
+msgstr "Scalegorge Waterscape"
+
+msgid "绥园"
+msgstr "Fyxestroll Garden"
+
+msgid "幽囚狱"
+msgstr "Shackling Prison"
+
+msgid "「筑城者」大世界"
+msgstr "\"Dreamwalker\" Realm"
+
+msgid "黄金的时刻"
+msgstr "The Moment of Golden Hour"
+
+msgid "白日梦酒店-现实"
+msgstr "Hotel & Dreamscape - Reality"
+
+msgid "白日梦酒店-美梦"
+msgstr "Hotel & Dreamscape - Dream"
+
+# ===== Misc Game Terms =====
+msgid "精英"
+msgstr "Elite"
+
+msgid "首领"
+msgstr "Boss"
+
+msgid "休整"
+msgstr "Respite"
+
+msgid "交易"
+msgstr "Transaction"
+
+msgid "遭遇"
+msgstr "Encounter"
+
+msgid "战斗"
+msgstr "Combat"
+
+msgid "支援"
+msgstr "Support"
+
+msgid "配队"
+msgstr "Team"
+
+msgid "秘技"
+msgstr "Technique"
+
+msgid "确认"
+msgstr "Confirm"
+
+msgid "取消"
+msgstr "Cancel"
+
+msgid "开始"
+msgstr "Start"
+
+msgid "退出"
+msgstr "Exit"
+
+msgid "返回"
+msgstr "Return"
+
+msgid "挑战"
+msgstr "Challenge"
+
+msgid "领取"
+msgstr "Claim"
+
+msgid "选择"
+msgstr "Select"
+
+# ===== Status Messages =====
+msgid "普通副本"
+msgstr "Normal Instance"
+
+msgid "体力不足"
+msgstr "Not Enough Stamina"
+
+msgid "没有开拓力计划"
+msgstr "No Trailblaze Power Plan"
+
+msgid "有开拓力计划"
+msgstr "Has Trailblaze Power Plan"
+
+msgid "完成计划"
+msgstr "Plan Completed"

@@ -40,14 +40,14 @@ class SrSettingGameInterface(VerticalScrollInterface):
     def _get_basic_group(self) -> QWidget:
         basic_group = SettingCardGroup(gt('游戏基础'))
 
-        self.input_way_opt = ComboBoxSettingCard(icon=FluentIcon.CLIPPING_TOOL, title='输入方式',
+        self.input_way_opt = ComboBoxSettingCard(icon=FluentIcon.CLIPPING_TOOL, title=gt('输入方式'),
                                                  options_enum=TypeInputWay)
         basic_group.addSettingCard(self.input_way_opt)
 
-        self.run_opt = ComboBoxSettingCard(icon=FluentIcon.GAME, title='疾跑', options_enum=RunModeEnum)
+        self.run_opt = ComboBoxSettingCard(icon=FluentIcon.GAME, title=gt('疾跑'), options_enum=RunModeEnum)
         basic_group.addSettingCard(self.run_opt)
 
-        self.use_quirky_snacks_opt = SwitchSettingCard(icon=FluentIcon.CAFE, title='只用奇巧零食')
+        self.use_quirky_snacks_opt = SwitchSettingCard(icon=FluentIcon.CAFE, title=gt('只用奇巧零食'))
         basic_group.addSettingCard(self.use_quirky_snacks_opt)
 
         return basic_group
@@ -55,26 +55,26 @@ class SrSettingGameInterface(VerticalScrollInterface):
     def _get_launch_argument_group(self) -> QWidget:
         launch_argument_group = SettingCardGroup(gt('启动参数'))
 
-        self.launch_argument_switch = SwitchSettingCard(icon=FluentIcon.SETTING, title='启用')
+        self.launch_argument_switch = SwitchSettingCard(icon=FluentIcon.SETTING, title=gt('启用'))
         self.launch_argument_switch.value_changed.connect(self._on_launch_argument_switch_changed)
         launch_argument_group.addSettingCard(self.launch_argument_switch)
 
-        self.screen_size_opt = ComboBoxSettingCard(icon=FluentIcon.SETTING, title='窗口尺寸', options_enum=ScreenSizeEnum)
+        self.screen_size_opt = ComboBoxSettingCard(icon=FluentIcon.SETTING, title=gt('窗口尺寸'), options_enum=ScreenSizeEnum)
         launch_argument_group.addSettingCard(self.screen_size_opt)
 
-        self.full_screen_opt = ComboBoxSettingCard(icon=FluentIcon.SETTING, title='全屏', options_enum=FullScreenEnum)
+        self.full_screen_opt = ComboBoxSettingCard(icon=FluentIcon.SETTING, title=gt('全屏'), options_enum=FullScreenEnum)
         launch_argument_group.addSettingCard(self.full_screen_opt)
 
-        self.popup_window_switch = SwitchSettingCard(icon=FluentIcon.SETTING, title='无边框窗口')
+        self.popup_window_switch = SwitchSettingCard(icon=FluentIcon.SETTING, title=gt('无边框窗口'))
         launch_argument_group.addSettingCard(self.popup_window_switch)
 
-        self.monitor_opt = ComboBoxSettingCard(icon=FluentIcon.SETTING, title='显示器序号', options_enum=MonitorEnum)
+        self.monitor_opt = ComboBoxSettingCard(icon=FluentIcon.SETTING, title=gt('显示器序号'), options_enum=MonitorEnum)
         launch_argument_group.addSettingCard(self.monitor_opt)
 
         self.launch_argument_advance = TextSettingCard(
             icon=FluentIcon.SETTING,
-            title='高级参数',
-            input_placeholder='如果你不知道这是做什么的 请不要填写'
+            title=gt('高级参数'),
+            input_placeholder=gt('如果你不知道这是做什么的 请不要填写')
         )
         launch_argument_group.addSettingCard(self.launch_argument_advance)
 
@@ -90,19 +90,19 @@ class SrSettingGameInterface(VerticalScrollInterface):
     def _get_key_group(self) -> QWidget:
         key_group = SettingCardGroup(gt('游戏按键'))
 
-        self.key_interact_opt = KeySettingCard(icon=FluentIcon.GAME, title='交互')
+        self.key_interact_opt = KeySettingCard(icon=FluentIcon.GAME, title=gt('交互'))
         key_group.addSettingCard(self.key_interact_opt)
 
-        self.key_technique_opt = KeySettingCard(icon=FluentIcon.GAME, title='秘技')
+        self.key_technique_opt = KeySettingCard(icon=FluentIcon.GAME, title=gt('秘技'))
         key_group.addSettingCard(self.key_technique_opt)
 
-        self.key_open_map_opt = KeySettingCard(icon=FluentIcon.GAME, title='地图')
+        self.key_open_map_opt = KeySettingCard(icon=FluentIcon.GAME, title=gt('地图'))
         key_group.addSettingCard(self.key_open_map_opt)
 
-        self.key_esc_opt = KeySettingCard(icon=FluentIcon.GAME, title='返回')
+        self.key_esc_opt = KeySettingCard(icon=FluentIcon.GAME, title=gt('返回'))
         key_group.addSettingCard(self.key_esc_opt)
 
-        self.key_gameplay_interaction_opt = KeySettingCard(icon=FluentIcon.GAME, title='玩法交互')
+        self.key_gameplay_interaction_opt = KeySettingCard(icon=FluentIcon.GAME, title=gt('玩法交互'))
         key_group.addSettingCard(self.key_gameplay_interaction_opt)
 
         return key_group
